@@ -6,7 +6,7 @@ public class DigitCounter {
         n = Math.abs(n);        // handle negative numbers
         int count = 0;
 
-        while (n > 0) {
+        while (n > 0) {         // count digits
             count++;
             n /= 10;
         }
