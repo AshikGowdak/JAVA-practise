@@ -10,6 +10,7 @@ public class palindromeNumber {
 
     if (num < 0) {
       System.out.println("The number is not a palindrome.");
+      sc.close();
       return;
     }
     while (num > 0) {
@@ -22,6 +23,7 @@ public class palindromeNumber {
     } else {
       System.out.println("The number is not a palindrome.");
     }
+    sc.close();
   }
 }
 
