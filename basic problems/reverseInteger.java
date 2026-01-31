@@ -19,13 +19,13 @@ public class reverseInteger {
         return 0;
       }
       if (rev < Integer.MIN_VALUE / 10 ||
-          (rev == Integer.MIN_VALUE / 10 && digit < -8)) {
+          (rev == Integer.MIN_VALUE / 10 && digit < -8)) {// underflow
         return 0;
       }
 
-      rev = rev * 10 + digit;
+      rev = rev * 10 + digit;// append digit from last to first
     }
-    return rev;
+    return rev;// return reversed integer
   }
 
 }
