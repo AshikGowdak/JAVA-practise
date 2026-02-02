@@ -20,7 +20,8 @@ I solve problems every day from very basic to improve my **problem-solving skill
 
 
 ## 🧠 Topics Covered
-- Basic programming.....
+- Basic programming [7 problems]
+- Arrays.....
 
 (More topics will be added as I progress)
 
